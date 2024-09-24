@@ -17,7 +17,6 @@ export function UserProgressContextProvider({ children }) {
 
 
     function showCart() {
-        console.log('action here')
         setUserProgress('cart')
     }
 
