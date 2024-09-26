@@ -28,7 +28,7 @@ export function UserProgressContextProvider({ children }) {
         setUserProgress('checkout')
     }
 
-    function hideCheckout() {
+    function hideCheckOut() {
         setUserProgress('')
     }
 
@@ -37,7 +37,7 @@ export function UserProgressContextProvider({ children }) {
         showCart,
         hideCart,
         showCheckout,
-        hideCheckout
+        hideCheckOut
     };
 
     return (
